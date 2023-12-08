@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e595a758-558b-421a-9632-c41a06d627f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e595a758-558b-421a-9632-c41a06d627f4" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +33,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -105,26 +89,6 @@
       <workItem from="1701535774490" duration="3000" />
       <workItem from="1701535862161" duration="9280000" />
       <workItem from="1701584286018" duration="6611000" />
-      <workItem from="1701916369535" duration="1138000" />
-      <workItem from="1702003737904" duration="58000" />
-      <workItem from="1702003903169" duration="262000" />
-      <workItem from="1702011575067" duration="118000" />
-      <workItem from="1702011708645" duration="263000" />
-      <workItem from="1702012329348" duration="651000" />
-      <workItem from="1702014644490" duration="1030000" />
-      <workItem from="1702016115387" duration="428000" />
-      <workItem from="1702016591634" duration="28000" />
-      <workItem from="1702016851222" duration="52000" />
-      <workItem from="1702016918120" duration="443000" />
-      <workItem from="1702017423943" duration="231000" />
-      <workItem from="1702017767086" duration="331000" />
-      <workItem from="1702019778751" duration="2096000" />
-      <workItem from="1702023206287" duration="1789000" />
-      <workItem from="1702026056847" duration="45000" />
-      <workItem from="1702026990858" duration="232000" />
-      <workItem from="1702027406017" duration="269000" />
-      <workItem from="1702027718441" duration="8000" />
-      <workItem from="1702030665042" duration="751000" />
     </task>
     <servers />
   </component>

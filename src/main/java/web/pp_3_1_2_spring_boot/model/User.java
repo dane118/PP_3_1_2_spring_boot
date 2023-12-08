@@ -19,11 +19,9 @@ public class User {
     private String name;
     @NotBlank(message = "Поле surname не должно быть пустым")
     private String surname;
-    @Min(value = 0, message = "Поле age не может быть отрицательным")
-    @Positive
+    @Positive(message = "Поле age не может быть отрицательным")
     private Byte age;
-    @Min(value = 0, message = "Поле salary не может быть отрицательным")
-    @Positive
+    @Positive(message = "Поле salary не может быть отрицательным")
     private Integer salary;
 
     public User() {

@@ -42,13 +42,13 @@ public class UserController {
         return "redirect:/users";
     }
 
-    @PostMapping (value = "/edit")
+    @PostMapping("/edit")
     public String updateUser(@RequestParam("id") Long id, Model model) {
         model.addAttribute("user", service.getById(id));
         return "edit";
     }
 
-    @PostMapping(value = "/delete")
+    @PostMapping("/delete")
     public String deleteUser(@RequestParam("id") Long id) {
         service.deleteUser(service.getById(id));
         return "redirect:/users";

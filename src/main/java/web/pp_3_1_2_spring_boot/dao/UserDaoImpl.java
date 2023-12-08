@@ -3,6 +3,7 @@ package web.pp_3_1_2_spring_boot.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.persistence.PersistenceContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import web.pp_3_1_2_spring_boot.model.User;
 
@@ -10,8 +11,11 @@ import java.util.List;
 
 @Repository
 public class UserDaoImpl implements UserDao {
-    @PersistenceContext
-    private EntityManager entityManager;
+    private final EntityManager entityManager;
+
+    public UserDaoImpl(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
 
     @Override
     @SuppressWarnings("unchecked")
