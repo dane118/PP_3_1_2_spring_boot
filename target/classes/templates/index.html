@@ -28,19 +28,15 @@
             <td th:utext="${user.getAge()}"></td>
             <td th:utext="${user.getSalary()}"></td>
             <td>
-                <!--                <form th:method="GET" th:action="@{/users/delete/?id={id}(id=${user.getId()})}">-->
-                <!--                    <input type="submit" value="Delete">-->
-                <!--                </form>-->
-                <form th:method="POST" th:action="@{/users/delete/{id}(id=${user.getId()})}">
+                <form th:method="POST" th:action="@{/users/delete?id={id}(id=${user.getId()})}">
                     <input type="submit" value="Delete">
                 </form>
+
             </td>
             <td>
-                <!--                <form th:method="POST" th:action="@{/users/edit/?id={id}(id=${user.getId()})}">-->
-                <!--                    <input type="submit" value="Update">-->
-                <!--                </form>-->
-                <form th:method="POST" th:action="@{/users/edit/{id}(id=${user.getId()})}">
+                <form th:method="POST" th:action="@{/users/edit?id={id}(id=${user.getId()})}">
                     <input type="submit" value="Update">
+                </form>
                 </form>
             </td>
         </tr>

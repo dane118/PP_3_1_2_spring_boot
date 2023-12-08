@@ -5,53 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e595a758-558b-421a-9632-c41a06d627f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133/storage_v2/_src_/schema/my_db.8XM4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/Pp312SpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pp_3_1_2_spring_boot/Pp312SpringBootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/Pp312SpringBootApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/962d1d87-7d75-47e4-b1ad-59859ec0f133.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pp_3_1_2_spring_boot/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pp_3_1_2_spring_boot/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +43,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -83,29 +60,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Pp312SpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="PP_3_1_2_spring_boot" />
@@ -128,6 +105,26 @@
       <workItem from="1701535774490" duration="3000" />
       <workItem from="1701535862161" duration="9280000" />
       <workItem from="1701584286018" duration="6611000" />
+      <workItem from="1701916369535" duration="1138000" />
+      <workItem from="1702003737904" duration="58000" />
+      <workItem from="1702003903169" duration="262000" />
+      <workItem from="1702011575067" duration="118000" />
+      <workItem from="1702011708645" duration="263000" />
+      <workItem from="1702012329348" duration="651000" />
+      <workItem from="1702014644490" duration="1030000" />
+      <workItem from="1702016115387" duration="428000" />
+      <workItem from="1702016591634" duration="28000" />
+      <workItem from="1702016851222" duration="52000" />
+      <workItem from="1702016918120" duration="443000" />
+      <workItem from="1702017423943" duration="231000" />
+      <workItem from="1702017767086" duration="331000" />
+      <workItem from="1702019778751" duration="2096000" />
+      <workItem from="1702023206287" duration="1789000" />
+      <workItem from="1702026056847" duration="45000" />
+      <workItem from="1702026990858" duration="232000" />
+      <workItem from="1702027406017" duration="269000" />
+      <workItem from="1702027718441" duration="8000" />
+      <workItem from="1702030665042" duration="751000" />
     </task>
     <servers />
   </component>

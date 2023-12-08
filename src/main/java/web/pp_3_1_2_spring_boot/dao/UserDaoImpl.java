@@ -1,6 +1,7 @@
 package web.pp_3_1_2_spring_boot.dao;
 
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityNotFoundException;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import web.pp_3_1_2_spring_boot.model.User;
@@ -8,27 +9,47 @@ import web.pp_3_1_2_spring_boot.model.User;
 import java.util.List;
 
 @Repository
-public class UserDaoImpl implements UserDao{
+public class UserDaoImpl implements UserDao {
     @PersistenceContext
     private EntityManager entityManager;
 
     @Override
+    @SuppressWarnings("unchecked")
     public List<User> getAllUsers() {
-        return entityManager.createNativeQuery("select * from my_db.users;", User.class).getResultList();
+        return entityManager.createQuery("from User").getResultList();
     }
 
     @Override
-    public void addOrUpdateUser(User user) {
-        entityManager.persist(entityManager.contains(user) ? user : entityManager.merge(user));
+    public void addNewUser(User user) {
+        entityManager.persist(user);
+    }
+
+    @Override
+    public void updateUser(User user) {
+        User userCheck = entityManager.find(User.class, user.getId());
+        if (userCheck == null) {
+            throw new EntityNotFoundException();
+        } else {
+            entityManager.merge(user);
+        }
     }
 
     @Override
     public User getById(Long id) {
-        return entityManager.find(User.class, id);
+        User user = entityManager.find(User.class, id);
+        if (user == null) {
+            throw new EntityNotFoundException();
+        } else {
+            return user;
+        }
     }
 
     @Override
     public void deleteUser(User user) {
-        entityManager.remove(entityManager.contains(user) ? user : entityManager.merge(user));
+        if (!entityManager.contains(user)) {
+            throw new EntityNotFoundException();
+        } else {
+            entityManager.remove(user);
+        }
     }
 }

@@ -1,8 +1,13 @@
 package web.pp_3_1_2_spring_boot.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
 
 @Entity
 @Table(name = "users")
@@ -15,8 +20,10 @@ public class User {
     @NotBlank(message = "Поле surname не должно быть пустым")
     private String surname;
     @Min(value = 0, message = "Поле age не может быть отрицательным")
+    @Positive
     private Byte age;
     @Min(value = 0, message = "Поле salary не может быть отрицательным")
+    @Positive
     private Integer salary;
 
     public User() {
